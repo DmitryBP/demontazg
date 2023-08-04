@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/demontazg/static/css/main.fd1c6ba3.css",
+    "main.js": "/demontazg/static/js/main.85e2757d.js",
+    "static/media/bg1.jpg": "/demontazg/static/media/bg1.ecdb0c9daa13bd88b80e.jpg",
+    "static/media/img.jpg": "/demontazg/static/media/img.f528b0ae1f55940dc9ba.jpg",
+    "static/media/img-2.jpg": "/demontazg/static/media/img-2.cdc7bdb64deedc331fe2.jpg",
+    "static/media/img-1.jpg": "/demontazg/static/media/img-1.afa2b62047a60b56af9c.jpg",
+    "static/media/img-3.jpg": "/demontazg/static/media/img-3.73f7f97e8bae26bc78db.jpg",
+    "static/media/step4.png": "/demontazg/static/media/step4.8116f386cd00155f2e97.png",
+    "static/media/step1.png": "/demontazg/static/media/step1.5e555000c26b5f7edbd2.png",
+    "static/media/step3.png": "/demontazg/static/media/step3.0b7c98782c82ab9e1508.png",
+    "static/media/step2.png": "/demontazg/static/media/step2.4af048f882e04cb7bb81.png",
+    "index.html": "/demontazg/index.html",
+    "main.fd1c6ba3.css.map": "/demontazg/static/css/main.fd1c6ba3.css.map",
+    "main.85e2757d.js.map": "/demontazg/static/js/main.85e2757d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd1c6ba3.css",
+    "static/js/main.85e2757d.js"
+  ]
+}

@@ -1,0 +1,93 @@
+@import '../../scss/variables.scss';
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px 70px;
+  font-size: 14px;
+  border-bottom: 1px solid $grey10;
+}
+.logoBox {
+  width: 320px;
+}
+.logoTitle {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.centerBox {
+  width: 320px;
+}
+.adressStr {
+  font-size: 12px;
+}
+.topStr {
+  padding-bottom: 10px;
+}
+.phoneBox {
+  text-align: end;
+  a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+  }
+  span {
+    color: $grey40;
+    color: #000;
+    font-size: 18px;
+  }
+}
+.iconStr {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.phoneStrWrp {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: end;
+}
+.icon {
+  // margin-right: 10px;
+  width: 25px;
+}
+
+.icon__left {
+  margin-left: 10px;
+}
+
+button {
+  border: none;
+  color: #4b4b4b;
+  background: $gradient;
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+button:hover{
+  cursor: pointer;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+@media(max-width: 1200px){
+  .centerBox {
+    display: none;
+  }
+}
+
+@media(max-width: 800px){
+  header {
+    justify-content: center;
+    padding: 20px;
+  }
+  .logoBox {
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  .centerBox {
+    display: none;
+  }
+}

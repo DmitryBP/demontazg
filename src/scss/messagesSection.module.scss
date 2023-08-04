@@ -1,0 +1,71 @@
+@import './variables.scss';
+.sectionPadding {
+  padding: 40px 70px;
+}
+.advantageCol {
+  padding-bottom: 25px;
+}
+
+.MessegerWrapper {
+  padding: 0;
+  background-color: $bgGrey;
+}
+.leftTitle {
+  text-align: center;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.leftText {
+  text-align: center;
+  font-size: 22px;
+  font-weight: lighter;
+}
+.btnWrp {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.messangerBtn {
+  width: calc(50% - 10px);
+  height: 50px;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: contain;
+}
+@media(max-width: 1200px){
+  .messangerBtn{
+    height: 40px;
+  }
+  .advantageCol {
+    padding-bottom: 10px;
+    font-weight: 200;
+  }
+  .advantageCol:last-child{
+    padding-bottom: 0;
+  }
+  .leftText {
+    font-size: 18px;
+  }
+  .leftTitle {
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+  }
+}
+@media(max-width: 800px){
+  .sectionPadding {
+    padding: 20px;
+  }
+}
+
+.wtsBtn {
+  background-image: url(../components/Header/img/whatsapp.png);
+  background-color: #29a71a;
+}
+.tlgBtn {
+  background-image: url(../components/Header/img/telegram.png);
+  background-color: #039be5;
+}

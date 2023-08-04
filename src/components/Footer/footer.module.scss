@@ -1,0 +1,51 @@
+@import '../../scss/variables.scss';
+
+.footer {
+  background-color: $grey10;
+}
+.wrapper {
+  padding: 40px 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  p,
+  a {
+    color: $grey70;
+    line-height: 25px;
+  }
+}
+.right p:first-child {
+  margin-bottom: 15px;
+}
+.iconStr {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.icon {
+  margin-right: 15px;
+  width: 25px;
+}
+@media (max-width: 1150px) {
+  .center {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .wrapper {
+    padding: 20px;
+  }
+  .center {
+    display: none;
+  }
+  .right {
+    order: 2;
+    width: 100%;
+    button {
+      width: 100%;
+    }
+  }
+  .left {
+    display: none;
+  }
+}

@@ -1,0 +1,39 @@
+@import './variables.scss';
+
+.secondScrin {
+  padding: 40px 70px;
+  color: #000;
+  font-weight: 200;
+}
+.title {
+  text-align: center;
+  font-size: 46px;
+  font-weight: 400;
+  line-height: 70px;
+  padding-bottom: 30px;
+}
+.serviceCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.advantageCol {
+  padding-bottom: 25px;
+}
+.advantageCol:last-child {
+  padding-bottom: 0px;
+}
+
+  @media (max-width: 800px) {
+    .secondScrin {
+      padding: 20px;
+    }
+  
+  .title {
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 200;
+  }
+
+}

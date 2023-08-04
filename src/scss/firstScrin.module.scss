@@ -1,0 +1,58 @@
+@import './variables.scss';
+
+.firstScrin {
+  padding: 40px 70px;
+  background-image: url(../assets/img/bg1.jpg);
+  background-size: cover;
+  height: 700px;
+  // filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  ul {
+    list-style: none;
+    font-size: 20px;
+  }
+  li {
+    line-height: 35px;
+  }
+}
+.title {
+  font-size: 64px;
+  line-height: 77px;
+  padding-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+  .firstScrin {
+    background-size: cover;
+    height:max-content;
+    background-repeat: no-repeat;
+  }
+  .title {
+    font-size: 34px;
+    line-height: 44px;
+    text-align: center;
+  }
+  ul{
+    background-color: hsla(0, 0%, 100%, 0.8);
+    padding: 0 20px;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 800px) {
+  .title {
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .firstScrin {
+    padding: 20px 40px 40px;
+  }
+ul{
+  background-color: hsla(0, 0%, 100%, 0.8);
+  padding: 0 20px;
+  border-radius: 10px;
+}
+  li {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

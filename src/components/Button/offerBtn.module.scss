@@ -1,0 +1,11 @@
+@import '../../scss/variables.scss';
+.offerBtn {
+  border: none;
+  color: #4b4b4b;
+  background: $gradient;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
